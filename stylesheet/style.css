@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Saira', Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+	font-size: 20px;
+	font-weight: 300;
+	position: relative;
+}
+
+.container {
+	position: relative;
+	height: 100vh;
+}
+
+.section-area {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.head-title {
+	font-weight: 500;
+}
+
+.form-input {
+	margin: 20px 0 20px 0;
+}
+
+.txt-box {
+	width: 485px;
+	padding: 3px;
+	border-radius: 3px;
+	border: 1px solid rgb(192, 192, 192);
+}
+
+.btn-box {
+	width: 70px;
+	height: auto;
+}
+
+.magnet-element {
+	margin: 20px 0 20px 0;
+}
+
+.link-magnet {
+	visibility: hidden;
+	display: inline;
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.magnet {
+	font-family: 'Saira', Helvetica, sans-serif;
+}
+
+.magnet:hover,
+.magnet:link {
+	text-decoration: none;
+}
+
+.get-extension-link {
+	text-decoration: none;
+	font-weight: 500;
+}

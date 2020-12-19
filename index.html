@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<title>hash -> magnet</title>
+
+		<!-- Stylesheet -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="stylesheet/style.css" />
+	</head>
+	<body>
+		<!-- Container -->
+		<div class="container">
+			<div class="section-area">
+				<div>
+					<h1 class="head-title">Hash2Mag</h1>
+				</div>
+
+				<!-- Form -->
+				<div class="form-input">
+					<form
+						name="form"
+						onpaste="pasted(this);"
+						onsubmit="h2mFunction(); return false;"
+					>
+						<label
+							>Info hash:
+							<input class="txt-box" id="hash" />
+						</label>
+						<input class="btn-box" type="submit" value="get" />
+						<div class="magnet-element">
+							<a class="link-magnet fa fa-magnet fa-fw" href="#" id="link">
+								<span class="magnet">Magnet</span>
+							</a>
+						</div>
+					</form>
+				</div>
+
+				<!-- Get extension button -->
+				<div>
+					<a
+						class="get-extension-link"
+						href="https://github.com/upbooo/h2m/releases"
+						>Get Chrome Extension</a
+					>
+				</div>
+			</div>
+		</div>
+		<!-- End Container -->
+		<!-- Script -->
+		<script src="script/script.js"></script>
+	</body>
+</html>
